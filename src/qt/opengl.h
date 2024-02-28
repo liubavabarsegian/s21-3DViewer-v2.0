@@ -1,13 +1,21 @@
 #ifndef OPENGL_H
 #define OPENGL_H
+#ifdef __APPLE__
+/* Defined before OpenGL and GLUT includes to avoid deprecation messages */
+#define GL_SILENCE_DEPRECATION
+#include <GLUT/glut.h>
+#include <OpenGL/gl.h>
+#else
+#include <GL/gl.h>
+#include <GL/glut.h>
+#endif
 
 #include <QFile>
 #include <QOpenGLFunctions>
 #include <QOpenGLWidget>
 #include <QtOpenGL>
 
-//#include "parser.h"
-
+#include "../controllers/s21_viewer_controller.h"
 
 // extern "C" int open_and_parse(s21_data *model, const char *filename, int
 // *blocks_to_free_in_matrix); extern "C" int create_matrix(s21_matrix
@@ -26,11 +34,12 @@
  - @param model - "структура модели"
  */
 
+namespace s21 {
 class OpenGL : public QOpenGLWidget {
   Q_OBJECT;
 
  public:
-  OpenGL(QWidget *parent = nullptr);
+  OpenGL(QWidget *parent);
   ~OpenGL();
   /**
   - @brief Функция, рисующая модель
@@ -52,6 +61,7 @@ class OpenGL : public QOpenGLWidget {
   - @brief Функция записи экрана
   */
   void record();
+  s21::ViewerController &controller;
 
  private:
   float xRot, yRot, zRot;
@@ -65,5 +75,5 @@ class OpenGL : public QOpenGLWidget {
   void drawLines();
  public slots:
 };
-
+}  // namespace s21
 #endif  // OPENGL_H

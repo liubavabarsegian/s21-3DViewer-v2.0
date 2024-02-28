@@ -32,7 +32,7 @@
     </property>
     <property name="font">
      <font>
-      <family>LKLUG</family>
+      <family>PT Mono</family>
       <pointsize>23</pointsize>
       <weight>75</weight>
       <italic>true</italic>
@@ -88,7 +88,7 @@ border-radius: 10px;
     </property>
     <property name="font">
      <font>
-      <family>LKLUG</family>
+      <family>PT Mono</family>
       <pointsize>14</pointsize>
       <weight>75</weight>
       <italic>true</italic>

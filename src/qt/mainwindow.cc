@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
   std::setlocale(LC_NUMERIC, "C");
@@ -151,7 +150,7 @@ void MainWindow::circleVerticles() {
   ui->viewerWidget->squareVerticles = false;
   ui->viewerWidget->noVerticles = false;
   ui->viewerWidget->circleVerticles = true;
-  //сглаживание вершин
+  // сглаживание вершин
   glEnable(GL_POINT_SMOOTH);
   glPointSize(ui->viewerWidget->pointSize);
   ui->viewerWidget->repaint();
@@ -219,18 +218,6 @@ void MainWindow::inputFile() {
 
 void MainWindow::openFile() {
   ui->viewerWidget->file = ui->inputFile->text();
-
-  //    if (ui->viewerWidget->model.polygons != NULL) {
-  //        free_vertices_in_facets(&(ui->viewerWidget->model));
-  //         free(ui->viewerWidget->model.polygons);
-  //       }
-//  if (ui->viewerWidget->model.matrix_3d != NULL) {
-//    free_matrix(ui->viewerWidget->model.matrix_3d,
-//                ui->viewerWidget->allocated_blocks);
-//  }
-//  if (ui->viewerWidget->model.matrix_3d) {
-//    free(ui->viewerWidget->model.matrix_3d);
-//  }
 
   if (ui->viewerWidget->file.length() > 0) {
     ui->viewerWidget->model.count_vert = 10;

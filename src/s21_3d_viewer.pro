@@ -12,21 +12,29 @@ include(qtgifimage/src/gifimage/qtgifimage.pri)
 
 SOURCES += \
     qt/main.cc \
-    # qt/mainwindow.cc \
     qt/opengl.cc \
-    qt/viewer_view.cpp
+    qt/viewer_view.cc \
+    models/s21_affine_transform.cc \
+    models/s21_matrix_oop.cc \
+    models/s21_viewer_parser.cc \
+    controllers/s21_viewer_controller.cc \
 
 HEADERS += \
-    # qt/mainwindow.h \
     qt/opengl.h \
-    qt/viewer_view.h
+    qt/viewer_view.h \
+    models/s21_affine_transform.h \
+    models/s21_matrix_oop.h \
+    models/s21_viewer_parser.h \
+    controllers/s21_viewer_controller.h \
 
 FORMS += \
-    # qt/mainwindow.ui \
     qt/viewer_view.ui
 
 RESOURCES += \
-    imgs/folder.png
+    imgs/folder.png \
+    imgs/folder.svg \
+    imgs/camera.png \
+    imgs/save.png
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

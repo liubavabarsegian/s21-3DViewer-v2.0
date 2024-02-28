@@ -2,12 +2,12 @@
 <ui version="4.0">
  <class>ViewerView</class>
  <widget class="QMainWindow" name="ViewerView">
-    <property name="geometry">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1325</width>
-    <height>902</height>
+    <width>1300</width>
+    <height>917</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,17 +26,16 @@
      <rect>
       <x>40</x>
       <y>40</y>
-      <width>221</width>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>LKLUG</family>
+      <family>PT Mono</family>
       <pointsize>23</pointsize>
-      <weight>75</weight>
-      <italic>true</italic>
-      <bold>true</bold>
+      <italic>false</italic>
+      <bold>false</bold>
       <underline>false</underline>
       <strikeout>false</strikeout>
      </font>
@@ -48,16 +47,6 @@
      <string>3D VIEWER</string>
     </property>
    </widget>
-   <!-- <widget class="OpenGL" name="viewerWidget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>90</y>
-      <width>911</width>
-      <height>631</height>
-     </rect>
-    </property>
-   </widget> -->
    <widget class="QLineEdit" name="inputFile">
     <property name="geometry">
      <rect>
@@ -66,6 +55,11 @@
       <width>241</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color:  rgb(153, 193, 241);
@@ -88,9 +82,8 @@ border-radius: 10px;
     </property>
     <property name="font">
      <font>
-      <family>LKLUG</family>
+      <family>PT Mono</family>
       <pointsize>14</pointsize>
-      <weight>75</weight>
       <italic>true</italic>
       <bold>true</bold>
      </font>
@@ -115,6 +108,7 @@ border-radius: 20px;</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>13</pointsize>
      </font>
     </property>
@@ -149,6 +143,11 @@ border-radius: 20px;</string>
       <height>16777215</height>
      </size>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="currentIndex">
      <number>0</number>
     </property>
@@ -168,6 +167,11 @@ border-radius: 20px;</string>
         <height>17</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>PT Mono</family>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">color: white</string>
       </property>
@@ -183,6 +187,11 @@ border-radius: 20px;</string>
         <width>91</width>
         <height>16</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PT Mono</family>
+       </font>
       </property>
       <property name="minimum">
        <number>40</number>
@@ -203,6 +212,11 @@ border-radius: 20px;</string>
         <height>23</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>PT Mono</family>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">color: white;</string>
       </property>
@@ -218,6 +232,11 @@ border-radius: 20px;</string>
         <width>71</width>
         <height>23</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PT Mono</family>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">color: white;</string>
@@ -235,6 +254,11 @@ border-radius: 20px;</string>
         <height>23</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>PT Mono</family>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true">color: white;</string>
       </property>
@@ -247,9 +271,14 @@ border-radius: 20px;</string>
        <rect>
         <x>190</x>
         <y>90</y>
-        <width>81</width>
+        <width>91</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>PT Mono</family>
+       </font>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(153, 193, 241);
@@ -419,7 +448,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <family>PT Mono</family>
      </font>
     </property>
     <property name="styleSheet">
@@ -434,12 +463,13 @@ color: rgb(0, 15, 88);</string>
      <rect>
       <x>980</x>
       <y>530</y>
-      <width>67</width>
+      <width>42</width>
       <height>17</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>14</pointsize>
      </font>
     </property>
@@ -459,6 +489,11 @@ color: rgb(0, 15, 88);</string>
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
     </property>
@@ -474,6 +509,11 @@ color: rgb(0, 15, 88);</string>
       <width>21</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
@@ -491,6 +531,11 @@ color: rgb(0, 15, 88);</string>
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
     </property>
@@ -507,6 +552,11 @@ color: rgb(0, 15, 88);</string>
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
     </property>
@@ -522,6 +572,11 @@ color: rgb(0, 15, 88);</string>
       <width>21</width>
       <height>16</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
@@ -541,6 +596,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>13</pointsize>
      </font>
     </property>
@@ -560,6 +616,11 @@ color: rgb(0, 15, 88);</string>
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
     </property>
@@ -578,6 +639,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>15</pointsize>
      </font>
     </property>
@@ -599,6 +661,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>15</pointsize>
      </font>
     </property>
@@ -620,6 +683,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>15</pointsize>
      </font>
     </property>
@@ -639,6 +703,11 @@ color: rgb(0, 15, 88);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true"/>
     </property>
@@ -646,9 +715,8 @@ color: rgb(0, 15, 88);</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <selectedon>../3d-viewer/imgs/folder.png</selectedon>
-     </iconset>
+     <iconset resource="../../build-s21_3d_viewer-Desktop_arm_darwin_generic_mach_o_64bit-Debug/qmake_qmake_immediate.qrc">
+      <normaloff>:/imgs/folder.png</normaloff>:/imgs/folder.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -666,6 +734,11 @@ color: rgb(0, 15, 88);</string>
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true"/>
     </property>
@@ -673,9 +746,8 @@ color: rgb(0, 15, 88);</string>
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <selectedon>../3d-viewer/imgs/camera.png</selectedon>
-     </iconset>
+     <iconset resource="../../build-s21_3d_viewer-Desktop_arm_darwin_generic_mach_o_64bit-Debug/qmake_qmake_immediate.qrc">
+      <normaloff>:/imgs/camera.png</normaloff>:/imgs/camera.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -693,13 +765,17 @@ color: rgb(0, 15, 88);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
-     <iconset>
-      <selectedon>../3d-viewer/imgs/save.png</selectedon>
-     </iconset>
+     <iconset resource="../../build-s21_3d_viewer-Desktop_arm_darwin_generic_mach_o_64bit-Debug/qmake_qmake_immediate.qrc">
+      <normaloff>:/imgs/save.png</normaloff>:/imgs/save.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -719,6 +795,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>14</pointsize>
      </font>
     </property>
@@ -740,6 +817,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>14</pointsize>
      </font>
     </property>
@@ -761,6 +839,7 @@ color: rgb(0, 15, 88);</string>
     </property>
     <property name="font">
      <font>
+      <family>PT Mono</family>
       <pointsize>14</pointsize>
      </font>
     </property>
@@ -780,6 +859,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -796,6 +880,11 @@ color: rgb(0, 15, 88);</string>
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
@@ -814,6 +903,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -830,6 +924,11 @@ color: rgb(0, 15, 88);</string>
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
@@ -848,6 +947,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -864,6 +968,11 @@ color: rgb(0, 15, 88);</string>
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
@@ -882,6 +991,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -898,6 +1012,11 @@ color: rgb(0, 15, 88);</string>
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
@@ -916,6 +1035,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -932,6 +1056,11 @@ color: rgb(0, 15, 88);</string>
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
@@ -950,6 +1079,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -967,6 +1101,11 @@ color: rgb(0, 15, 88);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);</string>
@@ -983,6 +1122,11 @@ color: rgb(0, 15, 88);</string>
       <width>81</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
@@ -1002,6 +1146,11 @@ border-radius: 20px;</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(153, 193, 241);
 color: rgb(0, 15, 88);
@@ -1019,6 +1168,11 @@ border-radius: 20px;</string>
       <width>111</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
@@ -1039,6 +1193,11 @@ border-radius: 20px;</string>
       <height>23</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">color: white;</string>
     </property>
@@ -1049,9 +1208,23 @@ border-radius: 20px;</string>
      <string notr="true">buttonGroup_2</string>
     </attribute>
    </widget>
+   <widget class="s21::OpenGL" name="viewerWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>901</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PT Mono</family>
+     </font>
+    </property>
+   </widget>
    <zorder>inputFileButton</zorder>
    <zorder>label</zorder>
-   <zorder>viewerWidget</zorder>
    <zorder>inputFile</zorder>
    <zorder>openFileButton</zorder>
    <zorder>label_3</zorder>
@@ -1089,14 +1262,15 @@ border-radius: 20px;</string>
    <zorder>scaleDec</zorder>
    <zorder>centralRadio</zorder>
    <zorder>parallelRadio</zorder>
+   <zorder>viewerWidget</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1325</width>
-     <height>22</height>
+     <width>1300</width>
+     <height>37</height>
     </rect>
    </property>
   </widget>
@@ -1104,17 +1278,17 @@ border-radius: 20px;</string>
  </widget>
  <customwidgets>
   <customwidget>
-   <!-- <class>OpenGL</class>
+   <class>s21::OpenGL</class>
    <extends>QWidget</extends>
-   <header>opengl.h</header> -->
+   <header>s21::opengl.h</header>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="../../build-s21_3d_viewer-Desktop_arm_darwin_generic_mach_o_64bit-Debug/qmake_qmake_immediate.qrc"/>
+ </resources>
  <connections/>
  <buttongroups>
   <buttongroup name="buttonGroup"/>
   <buttongroup name="buttonGroup_2"/>
  </buttongroups>
- <resources/>
- <connections/>
 </ui>

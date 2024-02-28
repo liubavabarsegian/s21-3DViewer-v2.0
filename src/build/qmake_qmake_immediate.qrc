@@ -1,0 +1,8 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="imgs/folder.png">/Users/lubabarsegan/Desktop/s21/s21-3DViewer-v2.0/src/imgs/folder.png</file>
+<file alias="imgs/folder.svg">/Users/lubabarsegan/Desktop/s21/s21-3DViewer-v2.0/src/imgs/folder.svg</file>
+<file alias="imgs/camera.png">/Users/lubabarsegan/Desktop/s21/s21-3DViewer-v2.0/src/imgs/camera.png</file>
+<file alias="imgs/save.png">/Users/lubabarsegan/Desktop/s21/s21-3DViewer-v2.0/src/imgs/save.png</file>
+</qresource>
+</RCC>
